@@ -1,12 +1,18 @@
-var usersCount = 13;
+var myAge = 16;
 
-var courses = 4526;
+var myName = "aryan";
 
-var minutes = 45451;
+var isLogin = true;
+
+alert(myAge);
+
+alert(myName);
+
+alert(isLogin)
 
 
-alert(minutes);
+alert(typeof myAge);
 
-alert(courses);
+alert(typeof myName);
 
-alert(usersCount);
+alert(typeof isLogin)
