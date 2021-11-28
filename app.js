@@ -1,6 +1,11 @@
-var birthYear = Number(prompt("please enter your birth year... ",1922))
+var userMinutes = Number(prompt("please enter minutes and get the hour...","more than 60"))
 
-var minusResult = 2022 - birthYear
+var userMinutesResult = userMinutes / 60
 
-alert(minusResult)
+if(userMinutes < 60) {
+    alert("ERROR: \n it can not Conversion to hour")
+}else{
+    alert(userMinutesResult)
+}
+
 
