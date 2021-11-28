@@ -1,40 +1,21 @@
-/*var userAge = prompt("enter your age please...?", "for example 25");
+// var userAge = 19
 
-var userNumAge = Number(userAge); // the original of numeric conversion syntax.
+// userStrAge = String(userAge)// "19"
 
-alert(typeof userNumAge);
+// var bool = true
 
-output === number
-*/
+// var strBool = String(bool)
 
+//  alert(typeof userStrAge)
 
-/*var userAge = prompt("enter your age please...?", "for example 25")
-
-var userNumAge = +userAge// the shortcut of numeric conversion syntax.
-
-alert(typeof userNumAge)
-output === number
-*/
+// alert(typeof strBool) //string conversion
 
 
-/*var userAge = prompt("enter your age please...?", "for example 25")
 
-var userNumAge = +userAge
+// alert(Boolean("1"))// true
+// alert(Boolean(""))// false
+// alert(Boolean(" "))// true
+// alert(Boolean("jfklajklfjkasjff")) // true
+// alert(Boolean(1))//true
+// alert(Boolean(0))// false
 
-alert(userNumAge)
-
-if user write a string in userAge prompt output === NaN
-
-*/
-
-
-/*var userAge = prompt("enter your age please...?", "for example 25")
-
-var userNumAge = +userAge
-
-alert(userNumAge)
-
-output === userAge ---- number
-
-
-*/
