@@ -1,8 +1,5 @@
-var userInput_1 = Number(prompt("please enter the first number...?"))
+var siteName = "sabzlearn.ir"
 
-var userInput_2 = Number(prompt("please enter the second number...?")) 
+var courseName = "JavaScript"
 
-alert(userInput_1 + userInput_2);
-alert(userInput_1 - userInput_2);
-alert(userInput_1 / userInput_2);
-alert(userInput_1 * userInput_2);
+alert("site: " + siteName + "\n" + "course: " + courseName) 
