@@ -1,7 +1,7 @@
-var firstNumber = 12
+var firstNumber = 19
 
-var secondNumber = 4
+var secondNumber = 5
 
-var PowerResult = firstNumber ** secondNumber// 12 ** 4 = 20736
+var remainingResult = firstNumber % secondNumber// 19 % 5 = 4
 
-alert(PowerResult)
+alert(remainingResult)
