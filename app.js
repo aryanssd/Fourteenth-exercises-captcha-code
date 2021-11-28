@@ -1,9 +1,8 @@
-var userNumber_1 = Number(prompt("please enter first number ...",0))
-var userNumber_2 = Number(prompt("please enter second number ...",0))
-var userNumber_3 = Number(prompt("please enter third number ...",0))
-var sum = (userNumber_1 + userNumber_2 + userNumber_3) 
-var avg = sum / 3
+var userAge = Number(prompt("please enter your real age...?"))
 
-alert(sum)
-
-alert(avg)
+if (userAge < 18){
+    alert("you can not login, your age is lower than 18.sorry  :-.(")
+}
+else{
+    alert("login was successful, welcome.")
+}
