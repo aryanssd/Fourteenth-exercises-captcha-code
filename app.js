@@ -1,8 +1,6 @@
-var userAge = Number(prompt("please enter your real age...?"))
+var firstNumber = Number(prompt("please enter the first number...",0))
+var secondNumber = Number(prompt("please enter the second number...",0))
 
-if (userAge < 18){
-    alert("you can not login, your age is lower than 18.sorry  :-.(")
-}
-else{
-    alert("login was successful, welcome.")
-}
+var pow = firstNumber ** secondNumber
+
+alert(pow)
