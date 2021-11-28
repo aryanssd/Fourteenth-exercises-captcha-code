@@ -1,5 +1,1 @@
-var siteName = "sabzlearn.ir"
-
-var courseName = "JavaScript"
-
-alert("site: " + siteName + "\n" + "course: " + courseName) 
+alert("this is the \"JavaScript\" course from " + "\"sabzlearn.ir\" site")
