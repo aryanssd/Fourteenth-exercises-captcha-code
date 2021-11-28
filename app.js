@@ -1,21 +1,9 @@
-// var userAge = 19
+var firstNumber = 12
 
-// userStrAge = String(userAge)// "19"
+var secondNumber = 4
 
-// var bool = true
+var thirdNumber = 2 
 
-// var strBool = String(bool)
+var plusResult = firstNumber + secondNumber// 12 + 4 = 16
 
-//  alert(typeof userStrAge)
-
-// alert(typeof strBool) //string conversion
-
-
-
-// alert(Boolean("1"))// true
-// alert(Boolean(""))// false
-// alert(Boolean(" "))// true
-// alert(Boolean("jfklajklfjkasjff")) // true
-// alert(Boolean(1))//true
-// alert(Boolean(0))// false
-
+alert(plusResult)
