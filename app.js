@@ -1,6 +1,6 @@
-var firstNumber = Number(prompt("please enter the first number...",0))
-var secondNumber = Number(prompt("please enter the second number...",0))
+var birthYear = Number(prompt("please enter your birth year... ",1922))
 
-var pow = firstNumber ** secondNumber
+var minusResult = 2022 - birthYear
 
-alert(pow)
+alert(minusResult)
+
