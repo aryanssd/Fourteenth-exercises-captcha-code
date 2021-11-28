@@ -1,7 +1,8 @@
-var firstNumber = 19
+var userInput_1 = Number(prompt("please enter the first number...?"))
 
-var secondNumber = 5
+var userInput_2 = Number(prompt("please enter the second number...?")) 
 
-var remainingResult = firstNumber % secondNumber// 19 % 5 = 4
-
-alert(remainingResult)
+alert(userInput_1 + userInput_2);
+alert(userInput_1 - userInput_2);
+alert(userInput_1 / userInput_2);
+alert(userInput_1 * userInput_2);
