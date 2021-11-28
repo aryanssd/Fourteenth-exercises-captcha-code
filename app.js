@@ -4,6 +4,6 @@ var secondNumber = 4
 
 var thirdNumber = 2 
 
-var minusResult = firstNumber - secondNumber// 12 - 4 = 8
+var divisionResult = firstNumber / secondNumber// 12 / 4 = 3
 
-alert(minusResult)
+alert(divisionResult)
