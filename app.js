@@ -1,4 +1,4 @@
-function showMassage(){
+var showMassage = function (){
     alert("hello world")
 }
 
