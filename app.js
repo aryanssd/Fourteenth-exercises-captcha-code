@@ -1,22 +1,23 @@
-var userGpa = Number(prompt("Please enter your Grade point average ...",12))
+var userScore = Number(prompt("please enter your score..."))
 
-switch (userGpa) {
-    case 18:
-    case 19:
-    case 20:
-        alert("your level is = A")
-        break;
-    case 15:
-    case 16:
-    case 17:
-        alert("your level is = B")   
-        break; 
-    case 12:
-    case 13:
-    case 14:
-        alert("your level is = C")
-    break; 
-    default:
-        alert("You became fired :(")
-        break; 
+if (userScore === 20){
+    alert("your level is A")
+}else if (userScore === 19){
+    alert("your level is A")
+}else if (userScore === 18){
+    alert("your level is A")
+}else if (userScore === 17){
+    alert("your level is B")
+}else if (userScore === 16){
+    alert("your level is B")
+}else if (userScore === 15){
+    alert("your level is B")
+}else if (userScore === 14){
+    alert("your level is C")
+}else if (userScore === 13){
+    alert("your level is C")
+}else if (userScore === 12){
+    alert("your level is C")
+}else{
+    alert("you have fired :(")
 }
