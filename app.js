@@ -1,17 +1,9 @@
-var num1 = 13
-var num2 = 4
-var num3 = 3
+var userAge = Number(prompt("please enter your age...", 18))
+var userSex = prompt('please enter your sex (male, female)','male')
 
-if(num1 === 10) {
-    alert("the number is 10")
+if (userAge < 18 || userSex === 'female') {
+    alert("شما مجاز به ورود به سایت نیستید :(")
 }
-
-else if(num2 * num3 === 11){
-    alert("the number is 11")
-}
-
-else if(num2 * num3 === num1){
-    alert("the number is 12")
-} else{
-    alert("there is no number")
+else{
+    alert(" شما میتوانید به پنل خود وارد شوید :) ")
 }
