@@ -1,9 +1,22 @@
-var num2 = 4
-var num3 = 3
+var userGpa = Number(prompt("Please enter your Grade point average ...",12))
 
-num2 + num3 === 7 ? alert('yes, plus of this number are 7 :)') : alert('no, plus of this number are not 7 :(')
-
-var num2 = 4
-var num3 = 4
-
-num2 + num3 === 7 ? alert('yes, plus of this number are 7 :)') : alert('no, plus of this number are not 7 :(')
+switch (userGpa) {
+    case 18:
+    case 19:
+    case 20:
+        alert("your level is = A")
+        break;
+    case 15:
+    case 16:
+    case 17:
+        alert("your level is = B")   
+        break; 
+    case 12:
+    case 13:
+    case 14:
+        alert("your level is = C")
+    break; 
+    default:
+        alert("You became fired :(")
+        break; 
+}
