@@ -1,13 +1,11 @@
-var number1 = Number(prompt("please enter the first number"))
-var number2 = Number(prompt("please enter the second number"))
+var userName = String(prompt("please enter your user name ...", "At least 3 character please"))
+var userPassword = prompt("please enter you password ...", "At least 8 character please")
 
-
-function showPower(num1, num2) {
-    return num1 ** num2
+if (userName.length <= 3 && userPassword.length <= 8){
+    alert("please enter more than 8 character for password")
+    alert("please enter more than 3 character for username")
+}else if (isNaN(userPassword)){
+    alert("password : \nplease enter a valid password ")
+}else{
+    alert("your password and your user name are right you can enter, welcome :)")
 }
-
-
-
-var powerResult = showPower(number1, number2)
-
-alert("powerResult = " + powerResult)
