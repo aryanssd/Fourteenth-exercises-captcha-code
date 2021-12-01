@@ -1,12 +1,8 @@
-var userName = String(prompt("Enter Your UserName :", "At least 3 character please"))
-var userPassword = prompt("Enter Your Password :", "At least 8 character please")
+var inputUserName = String(prompt("Enter your user name:"))
+var inputUserPass = Number(prompt("Enter your password:"))
 
-if (userName.length <= 3 || userPassword.length <= 8){
-    alert("UserName must be at least 3 characters and Password must be at least 8 characters !!")
-}
-else if (isNaN(userPassword)){
-    alert("Password : \nEnter a valid password!!")
-}
-else{
-    alert("Your Password and your UserName are true, welcome :)")
+if (inputUserName === "aryan" && inputUserPass === 138466) {
+    alert("you have been logged in successfully")
+}else{
+    alert("ERROR :  \nEnter the correct user name and password:")
 }
