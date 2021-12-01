@@ -1,8 +1,10 @@
-var inputUserName = String(prompt("Enter your user name:"))
-var inputUserPass = Number(prompt("Enter your password:"))
+var username = "aryan"
+var password = 138466
+var inputUserName = String(prompt("Enter user name :"))
+var inputUserPass = Number(prompt("Enter password :"))
 
-if (inputUserName === "aryan" && inputUserPass === 138466) {
-    alert("you have been logged in successfully")
-}else{
-    alert("ERROR :  \nEnter the correct user name and password:")
+if (username === inputUserName && password === inputUserPass) {
+    alert(" you have been logged in successfully")
+}else {
+    alert("enter the user name and password correctly!!!")
 }
